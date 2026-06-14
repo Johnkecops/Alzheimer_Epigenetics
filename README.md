@@ -272,3 +272,5 @@ School of Life Sciences, Jakarta, Indonesia
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
+
+**AI Assistance Disclaimer**: This codebase was developed with the assistance of Claude Code. While the AI provided code generation, debugging, and structural support, the human developer maintains full responsibility for reviewing, testing, and maintaining all content and functionality.
