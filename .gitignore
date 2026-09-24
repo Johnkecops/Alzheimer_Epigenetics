@@ -1,0 +1,101 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Downloaded GEO data (large binary files)
+geo_data/
+*.soft
+*.soft.gz
+*.anndata
+*.h5ad
+
+# ML model outputs
+*.keras
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Analysis results (generated outputs - regenerate from scripts)
+results/
+ml_results/
+dmr_results/
+outputs/
+
+# Log files
+*.log
+*.out
+*.err
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+$RECYCLE.BIN/
+
+# Credentials and secrets - NEVER commit these
+.env
+*.env
+secrets.json
+credentials.json
+config_private.py
+*_secret*
+*_private*
+api_keys.txt
+
+# Large data files
+*.csv.gz
+*.tsv.gz
+*.vcf.gz
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bed.gz
+
+# PDF (the published paper is in the repo but should not be versioned
+# if there are copyright restrictions - adjust as needed)
+# *.pdf
+
+# Streamlit cache
+.streamlit/
+
+# Coverage
+.coverage
+htmlcov/
+graphify-out/
+__pycache__/
+.DS_Store
